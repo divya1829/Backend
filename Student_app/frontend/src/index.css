@@ -1,0 +1,107 @@
+/* Global */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #eef2f7;
+  color: #333;
+}
+
+/* Page container */
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 30px 20px;
+}
+
+/* Form box */
+.form-box {
+  max-width: 520px;
+  background: #ffffff;
+  padding: 25px 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+
+  /* 👇 THIS CENTERS THE FORM */
+  margin: 0 auto 30px auto;
+}
+
+
+.form-box h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #1f3c88;
+}
+
+/* Inputs & dropdowns */
+input,
+select {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  border: 1px solid #cfd8dc;
+  font-size: 14px;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  border-color: #1976d2;
+}
+
+/* Buttons */
+button {
+  padding: 10px 18px;
+  border-radius: 6px;
+  border: none;
+  background: #1976d2;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #125aa0;
+}
+
+/* Cards section */
+.cards {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+/* Student card */
+.card {
+  width: 200px;
+  background: #ffffff;
+  padding: 14px;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+  border-top: 4px solid #1976d2;
+}
+
+.card h4 {
+  margin: 0;
+  font-size: 16px;
+  color: #1f3c88;
+}
+
+.card p {
+  font-size: 14px;
+  margin: 6px 0 10px;
+}
+
+/* View page */
+.details-container {
+  max-width: 600px;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.details-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
